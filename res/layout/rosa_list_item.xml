@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/quadroRuolo"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dip" 
+        android:gravity="center|center_vertical"
+        android:textSize="20sp" 
+        android:background="#ffffbb33"/>
+
+    <TextView
+        android:id="@+id/nomeGiocatore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/quadroRuolo"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/squadraVera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/nomeGiocatore"
+        android:layout_toRightOf="@id/quadroRuolo"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/eliminaGiocatore"
+        android:contentDescription="@string/elimina_giocatore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dip" />
+    
+    <ImageView
+        android:id="@+id/modificaRosa"
+        android:src="@drawable/rosa"
+        android:contentDescription="@string/modifica_rosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dip" />
+
+</RelativeLayout>

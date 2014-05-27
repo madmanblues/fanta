@@ -1,0 +1,48 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="qudratoPortieri">
+        <!-- Style blocco P portieri arancione-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#ffffbb33</item>
+    </style>
+    
+    <style name="qudratoDifensori">
+        <!-- Style blocco D difensori verde -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#ff99cc00</item>
+    </style>
+    
+    <style name="qudratoCentrocampisti">
+        <!-- Style blocco C centrocampisti blu -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#ff33b5e5</item>
+    </style>
+    
+    <style name="qudratoAttaccanti">
+        <!-- Style blocco A attaccanti rosso -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#ffff4444</item>
+    </style>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fanta DB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logo_squadra">Logo della squadra</string>
+    <string name="elimina_squadra">Elimina Squadra</string>
+    <string name="modifica_rosa">Modifica Rosa</string>
+    <string name="footer_squadre">Agguingi Squadra</string>
+    <string name="title_activity_dettagli_squadra">Dettagli Squadra</string>
+    <string name="intro_squadra">Configura la tua Squadra</string>
+    <string name="nome_squadra_hint">Nome squadra</string>
+    <string name="nome_lega_hint">Nome lega</string>
+    <string name="num_portieri_label">N. Portieri</string>
+    <string name="num_difensori_label">N. Difensori</string>
+    <string name="num_centrocampisti_label">N. Centrocampisti</string>
+    <string name="num_attaccanti_label">N. Attaccanti</string>
+    <string name="salva_squadra">Salva squadra</string>
+    <string name="title_activity_rosa_giocatori">RosaGiocatori</string>
+    <string name="footer_rosa">Agguingi Giocatore</string>
+    <string name="elimina_giocatore">Elimina Giocatore</string>
+    <string name="title_activity_aggiungi_giocatore">Aggiungi Giocatore</string>
+    <string name="squadraDoveGioca">Squadra</string>
+    <string name="nome_giocatore">Nome Giocatore</string>
+    <string name="salva_giocatore">Salva Giocatore</string>
+
+    <string-array name="ruoli_array">
+        <item>Portiere</item>
+        <item>Difensore</item>
+        <item>Centrocampista</item>
+        <item>Attaccante</item>
+    </string-array>
+
+    <string name="title_activity_gestione_squadra">Gestione Squadra</string>
+    <string name="modifica_squadra_btn">Modifica\nSquadra</string>
+    <string name="invia_formazione_btn">Invia\nFormazione</string>
+    <string name="elimina_squadra_btn">Elimina\nSquadra</string>
+    <string name="aggiungi_giocatore_btn">Gestisci\nGiocatori</string>
+    <string name="title_activity_invia_formazione">Invia Formazione</string>
+    
+    <string name="selezioneModulo">Modulo</string>
+        <string name="invia_formazione_btn_single_line">Invia Formazione</string>
+
+</resources>

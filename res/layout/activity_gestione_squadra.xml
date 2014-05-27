@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GestioneSquadra" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/aggiungiGiocatoreBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="60dp"
+            android:paddingBottom="40dp"
+            android:layout_weight="1.0"
+            android:background="#ffffbb33"
+            android:drawableTop="@drawable/add_128"
+            android:text="@string/aggiungi_giocatore_btn" />
+
+        <Button
+            android:id="@+id/inviaFormazioneBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="60dp"
+            android:paddingBottom="40dp"
+            android:layout_weight="1.0"
+            android:background="#ff99cc00"
+            android:drawableTop="@drawable/mail_128"
+            android:text="@string/invia_formazione_btn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/modificaSquadraBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="60dp"
+            android:paddingBottom="40dp"
+            android:layout_weight="1.0"
+            android:background="#ff33b5e5"
+            android:drawableTop="@drawable/edit_128"
+            android:text="@string/modifica_squadra_btn" />
+
+        <Button
+            android:id="@+id/eliminaSquadraBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="60dp"
+            android:paddingBottom="40dp"
+            android:layout_weight="1.0"
+            android:background="#ffff4444"
+            android:drawableTop="@drawable/delete_128"
+            android:text="@string/elimina_squadra_btn" />
+    </LinearLayout>
+
+</LinearLayout>
